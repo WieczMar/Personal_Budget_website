@@ -14,7 +14,7 @@ body{
     background-color: #f8f9fa;
 }
 
-.registration_panel{
+.login_panel{
     background-color: #fdfeff;
     border: 1px solid grey;
     border-radius: 10px;
@@ -30,7 +30,7 @@ body{
 
 }
 
-.registration_input_data{
+.login_input_data{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +40,7 @@ body{
  
 }
 
-.registration_input_data input{
+.login_input_data input{
     padding: 2%;
 }
 
@@ -64,7 +64,7 @@ button:hover{
     transform: translateY(-0.1em);
 }
 
-.already_registered{
+.not_registered{
     display: flex;
     flex-direction: row;
     justify-content: center;
