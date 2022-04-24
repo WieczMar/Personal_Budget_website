@@ -1,0 +1,80 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid grey;
+    width: 60%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.menu_panel{
+    background-color: #fdfeff;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px 15px;
+    width: 100%;
+    max-width: 450px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu_buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5%;
+}
+
+.button_link{
+    width: 50%;
+    font-weight: 500;
+    line-height: 150%;
+    text-decoration: none;
+    color: white;
+    background-color: #0077b6;
+    text-align: center;
+
+    padding: 2%;
+    margin: 3%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+}
+
+.sign_button{
+    display: flex;
+    justify-content: center;
+}
+
+.sign_button button{
+    padding: 10px 15px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077b6;
+}
+
+.button_link:hover{
+    box-shadow: 3px 3px  #caf0f8;
+    background-color: #0096c7;
+    transform: translateY(-0.05rem);
+}
