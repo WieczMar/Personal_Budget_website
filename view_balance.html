@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="view_balance.css"/>   
+    <title>View balance</title>
+</head>
+<body>
+    <div class="balance_panel">
+        <h1>Personal Budget</h1>
+        <h2>View balance</h2>
+        <div class="select_period">
+            <label for="period">- Select period -</label> 
+            <select name="period" id="period">
+                <option value="current_month" selected>Current month</option>
+                <option value="previous_month">Previous month</option>
+                <option value="current_year">Current year</option>
+                <option value="nonstandard">Nonstandard</option>
+            </select>
+        </div>
+        <div class="table">
+            <p class="table_title">Incomes</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Total amount [zł]</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Food</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Flat</td>
+                        <td>1500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table">
+            <p class="table_title">Expenses</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Total amount [zł]</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Food</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Flat</td>
+                        <td>1500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table">
+            <p class="table_title">Summary</p>
+            <table>
+                <tr>
+                    <th>Total incomes</th>
+                    <td colspan="2">1111</td>
+                </tr>
+                <tr>
+                    <th>Total expenses</th>
+                    <td colspan="2">1000</td>
+                </tr>
+                <tr>
+                    <th>Balance</th>
+                    <td colspan="2">111</td>
+                </tr>
+            </table>
+        </div>
+        <div class="return_button">
+            <a  class="button_link" href="C:\Users\marow\OneDrive\Dokumenty\Projekty\Webowe\Personal_Budget\main_menu.html">Go back to main menu</a>
+        </div>
+    </div>
+</body>
+</html>
