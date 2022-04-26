@@ -1,0 +1,90 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid #bdbdbd;
+    width: 80%;
+}
+
+h2{
+    color: #535353;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.expense_panel{
+    background-color: #fdfeff;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px 15px;
+    width: 100%;
+    max-width: 450px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    width: 100%;
+}
+
+.expense_input_data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3% 5% 5%;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.expense_input_data input{
+    padding: 2%;
+}
+
+.payment_method, .category{
+    font-weight: 400;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px 5% 5%;;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    padding: 10px 15px;
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077b6;
+}
+
+button:hover{
+    box-shadow: 3px 3px  #caf0f8;
+    background-color: #0096c7;
+    transform: translateY(-0.1em);
+}

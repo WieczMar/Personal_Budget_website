@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="add_expense.css"/>   
+    <title>Add expense</title>
+</head>
+<body>
+    <div class="expense_panel">
+        <h1>Personal Budget</h1>
+        <h2>expense adding</h2>
+        <form action="/myserver">
+            <div class="expense_input_data">
+                <label for="amount">Amount</label> 
+                <input type="number" name="amount" id="amount" step="0.01" min="0.00" placeholder="0.00 PLN">
+            </div>
+            <div class="expense_input_data">
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="expense_input_data">
+                <p>Payment method:</p>
+                <div class="payment_method">
+                        <input type="radio" name="payment_method" id="cash" value="Cash" checked>
+                        <label for="cash">Cash</label>
+                </div>
+                <div class="payment_method">
+                        <input type="radio" name="payment_method" id="debit_card" value="Debit card">
+                        <label for="debit_card">Debit card</label>
+                </div>
+                <div class="payment_method">
+                        <input type="radio" name="payment_method" id="credit_card" value="Credit card">
+                        <label for="credit_card">Credit card</label>
+                </div>
+            </div>
+            <div class="expense_input_data">
+                <p>Category:</p>
+                <div class="category">
+                        <input type="radio" name="category" id="food" value="Food" checked>
+                        <label for="food">Food</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="flat" value="Flat">
+                    <label for="flat">Flat</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="transport" value="Transport">
+                    <label for="transport">Transport</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="telecommunications " value="Telecommunications ">
+                    <label for="telecommunications ">Telecommunications </label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="health_care" value="Health care">
+                    <label for="health_care">Health care</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="clothes" value="Clothes">
+                    <label for="clothes">Clothes</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="hygiene" value="Hygiene">
+                    <label for="hygiene">Hygiene</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="children" value="Children">
+                    <label for="children">Children</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="entertainment" value="Entertainment">
+                    <label for="entertainment">Entertainment</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="trip" value="Trip">
+                    <label for="trip">Trip</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="trainings" value="Trainings">
+                    <label for="trainings">Trainings</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="books" value="Books">
+                    <label for="books">Books</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="savings" value="Savings">
+                    <label for="savings">Savings</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="pension" value="Pension">
+                    <label for="pension">Pension</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="debts_repayment" value="Debts repayment">
+                    <label for="debts_repayment">Debts repayment</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="donation" value="Donation">
+                    <label for="donation">Donation</label>
+                </div>
+                <div class="category">
+                    <input type="radio" name="category" id="other" value="Other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div class="expense_input_data">
+                <label for="comment">Comment</label> 
+                <input type="text" name="comment" id="comment" placeholder="(optional)">
+            </div>
+            <div class="buttons">
+                <div class="add_button">
+                    <button>Add</button>
+                </div>
+                <div class="cancel_button">
+                    <button>Cancel</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
