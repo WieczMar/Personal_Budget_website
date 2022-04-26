@@ -8,7 +8,12 @@ h1{
     margin: 0;
     padding: 15px;
     border-bottom: 1px solid #bdbdbd;
-    width: 60%; 
+    width: 80%;
+}
+
+h2{
+    color: #444444;
+    margin-bottom: 0;
 }
 
 body{
@@ -45,7 +50,7 @@ body{
 
 .button_link{
     width: 50%;
-    font-weight: 500;
+    font-size: medium;
     line-height: 150%;
     text-decoration: none;
     color: white;
@@ -57,20 +62,6 @@ body{
     border: 1px solid grey;
     border-radius: 5px;
     
-}
-
-.sign_button{
-    display: flex;
-    justify-content: center;
-}
-
-.sign_button button{
-    padding: 10px 15px;
-    font-weight: 700;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    background-color: #0077b6;
 }
 
 .button_link:hover{

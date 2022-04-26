@@ -10,6 +10,10 @@ h1{
     border-bottom: 1px solid #bdbdbd;
     width: 80%;
 }
+h2{
+    color: #444444;
+    margin-bottom: 0;
+}
 
 body{
     display: flex;

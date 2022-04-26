@@ -11,6 +11,10 @@ h1{
     width: 80%;
 }
 
+h2{
+    color: #444444;
+}
+
 body{
     display: flex;
     justify-content: center;
