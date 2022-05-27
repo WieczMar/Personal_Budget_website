@@ -24,7 +24,7 @@ li svg{
     margin-left: 5px;
 }
 
-.registration-panel{
+.panel{
     background-color: #fdfeff;
     border: 1px solid grey;
     border-radius: 10px;
@@ -37,7 +37,7 @@ li svg{
     padding-top: 10px;
 }
 
-.registration-input-data{
+.input-data{
     margin: 5%;
     font-weight: 600;
 }
@@ -54,7 +54,7 @@ li svg{
     transform: translateY(-0.1em);
 }
 
-.already_registered{
+.already-registered{
     display: flex;
     flex-direction: row;
     justify-content: center;
