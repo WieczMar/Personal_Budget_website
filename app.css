@@ -1,0 +1,79 @@
+body{
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 20px;
+    background-color: #0077b6;
+    color: rgb(250, 250, 250);
+}
+
+.header-icon{
+    height: 45px;
+    width: 45px;
+    margin: 0 20px;
+    background-color: #0077b6;
+}
+
+li svg{
+    height: 20px;
+    width: 20px;
+    color: white;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+.registration-panel{
+    background-color: #fdfeff;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 20px;
+}
+
+.panel-title{
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.registration-input-data{
+    margin: 5%;
+    font-weight: 600;
+}
+
+.button{
+    margin-top: 10px;
+    background-color: #0077b6;
+    border-color: #0077b6;
+}
+
+.button:hover{
+    box-shadow: 3px 3px  #caf0f8;
+    background-color: #0096c7;
+    transform: translateY(-0.1em);
+}
+
+.already_registered{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    white-space: pre;
+    padding-top: 10px;
+    margin: 5% 20%;
+    font-size: 0.9rem;
+    border-top: 1px solid rgb(190, 190, 190);
+}
+
+.link{
+    text-decoration: none;
+    color: #0077b6;
+}
+
+a:hover{
+    font-weight: 700;
+}
+
+#mainNavbar{
+    background-color: #0077b6;
+}
