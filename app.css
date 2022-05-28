@@ -21,7 +21,11 @@ li svg{
     width: 20px;
     color: white;
     margin-bottom: 3px;
-    margin-left: 5px;
+    margin-left: 8px;
+}
+
+.current-website{
+    border-radius: 5px;
 }
 
 .panel{
@@ -35,6 +39,7 @@ li svg{
 .panel-title{
     font-size: xx-large;
     padding-top: 10px;
+    margin-top: 10px;
 }
 
 .input-data{
@@ -76,4 +81,16 @@ a:hover{
 
 #mainNavbar{
     background-color: #0077b6;
+}
+
+.main-site-picture{
+    margin: 40px 5px;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.welcome-text{
+    margin: 20px 0 5% 5%;
+    text-align: justify; 
 }
