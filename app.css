@@ -59,6 +59,11 @@ li svg{
     transform: translateY(-0.1em);
 }
 
+.cancel-button{
+    background-color: #888888;
+    border-color: #777777;  
+}
+
 .already-registered{
     display: flex;
     flex-direction: row;
